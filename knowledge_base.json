@@ -1,0 +1,23 @@
+{
+  "domain": "DeltaForge AI",
+  "subtitle": "Black-Scholes-Merton, Volatility Surfaces & Exotics",
+  "glossary": [
+    {
+      "term": "Gamma Squeeze",
+      "definition": "A feedback loop where dealers hedging short option gamma buy/sell the underlying, amplifying price moves."
+    },
+    {
+      "term": "Local Volatility",
+      "definition": "A deterministic volatility function of spot and time calibrated to match the entire observed option smile (Dupire model)."
+    },
+    {
+      "term": "Barrier Option",
+      "definition": "An option whose payoff activates or extinguishes once the underlying crosses a predefined price level."
+    }
+  ],
+  "starter_prompts": [
+    "Calculate Gamma squeeze exposure",
+    "Construct local volatility smile",
+    "Price barrier option knock-in"
+  ]
+}
